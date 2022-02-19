@@ -6,36 +6,152 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="CSS/stylesheet.css" rel="stylesheet">
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&family=Playfair+Display:wght@500&family=Raleway:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/00ca827a70.js" crossorigin="anonymous"></script>
 
     <title>Friesen Language Academy</title>
   </head>
   <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-1 text-dark" style="font-family: 'Lobster', serif;" href="./index.html"> <img src="./images/FLALogo.png" alt="">Friesen Language Academy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-solid fa-bars fa-2x"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-dark fs-4" aria-current="page" href="./programs.html">Our Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fs-4" href="./approach.html">Our Approach</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fs-4" href="./pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fs-4" href="./contact.html">Contact Us</a>
+            </li>
+        </div>
+      </div>
+    </nav>
 <!--Jumbotron with button-->
-<div class="row" id="jumbotron">
-    <div class="text-center col p-5 mb-5">
-      <h1 class="display-5 fw-bold">Problem Based Language Learning</h1>
-      <p class="fs-4 mb-5 text-muted">Secondary header providing additional information</p>
-      <button type="button" class="btn btn-lg btn-dark text-white">Our Programs</button>
+<div class="container-fluid">
+  <div class="row" id="jumbotron2">
+    <div class="col p-5 mb-5 bg-dark text-white opacity-50">
+      <h1 class="display-5 fw-bold header">Problem Based Language Learning</h1>
+      <p class="fs-4 mb-5">We use proven techniques to overcome language challenges and achieve communication goals.</p>
     </div>
   </div>
-
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h3 class="fw-bold mt-3 mb-3 header">We set up the problems, you solve them with language.</h3>
+        <p>Our language classes focus on the essence of communication: getting your point across. <br>While we work on standard vocabulary and grammar, our teachers emphasize using language in context<br> by providing full dialogue demonstrations with relevant situations and workplace problems.</p>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row mt-3">
+    <div class="col">
+      <h3 class="text-center header text-primary">Learner Responsibilities</h3>
+        <ul style="font-family: 'Raleway', sans-serif;">
+          <li class="m-2">Motivation to attend class and engage online</li>
+          <li class="m-2">Clear goals for communication in second language</li>
+          <li class="m-2">Good understanding of workplace tasks and demands</li>
+          <li class="m-2">Confidence in ability to grow</li>
+          <li class="m-2">Willingness to speak and play with new language</li>
+        </ul>
+    </div>
+    <div class="col">
+      <h3 class="text-center header text-primary">Teacher Responsibilities</h3>
+        <ul style="font-family: 'Raleway', sans-serif;">
+          <li class="m-2">Develop a positive, supportive learning environment</li>
+          <li class="m-2">Pose authentic communication problems for work and for life</li>
+          <li class="m-2">Expose learners to native speaker cultural norms</li>
+          <li class="m-2">Demonstate effective language solutions based on common communication problems</li>
+          <li class="m-2">Support learning with corrective demonstration and feedback</li>
+        </ul>
+    </div>
+  </div>
+</div>
+<!--Accordion FAQ-->
+<h3 class="text-center fw-bold mb-3 mt-3">FAQ</h3>
+<div class="row justify-content-center">
+<div class="accordion col-5" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        How much progress can be made in one class?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        <strong>It depends.</strong> Language learning progress is most effective when all parties involed - client, learner, teacher - are striving towards the same ends. Within a ten week program, motivated individuals can raise their Cambridge Standard level by at least one rank (A1 to A2).
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        How do you measure success?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+        <strong>We measure success the same way as you do: with observable results.</strong> Just as we prefer authentic language tasks, we also prefer authentic language tests involving real-world challenges. Our pre and post assessments reflect this priority.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Do you teach written language in addition to spoken language?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+        <strong>We usually use written language after a strong foundation of spoken language has been built.</strong> While written communication is indeed important, we want to be sure that everything a learner reads or writes is based on a solid phonic and cultural background.
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--Learning Resources-->
+<div class="container">
+  <div class="row mb-4">
+    <h3 class="text-center mt-3 mb-3">List of Language Learning Resources</h3>
+    <div class="col text-center">
+        <a href="https://www.mezzoguild.com/">Mezzofanti Guild</a>
+        <a href="https://www.antimoon.com/">Antimoon Language Blog</a>
+        <a href="https://frequencylist.com/">English Frequency List</a>
+        <a href="https://www.englishclub.com/grammar/verb-tenses.htm">English Grammar Club</a>
+    </div>
+    <div class="col text-center">
+      <a href="https://www.supermemo.wiki/en/supermemo">Supermemo</a>
+      <a href="https://apps.ankiweb.net/">Anki</a>
+      <a href="https://youglish.com/">Youglish</a>
+      <a href="https://www.yabla.com/">Yabla</a>
+    </div>
+    <div class="col text-center">
+      <a href="https://refold.la/mia/">Mass Immersion Approach</a>
+      <a href="https://growingparticipatorapproach.wordpress.com/">GPA Approach</a>
+      <a class="" href="https://online.ulm.edu/articles/education/communicative-language-approach-in-esl.aspx">Communicative Language Approach</a>
+      <a href="https://www.cambridgeenglish.org/learning-english/parents-and-children/how-to-support-your-child/what-are-the-different-levels-of-learning-a-language/">Cambridge Language Assessment</a>
+    </div>
+  </div>
+</div>
   <!--Footer-->
-  <footer class="container">
-    <ul class="nav">
-      <li class="nav-item"> 
-        <button type="button" class="btn btn-social-icon btn-outline-twitter"><i class="fab fa-twitter"></i></button>
-      </li>
-      <li class="nav-item"> 
-        <button type="button" class="btn btn-social-icon btn-outline-instagram"><i class="fab fa-instagram"></i></button>
-      </li>
-      <li class="nav-item"> 
-        <button type="button" class="btn btn-social-icon btn-outline-facebook"><i class="fab fa-facebook-f"></i></button>
-      </li>
-    </ul>
-    <p class="text-end"> &copy; 2022 DF</p> 
+  <footer class="footer text-center text-white bg-warning" id="footer">
+    <h1 class="m-3">FOLLOW US</h1>
+      <i class="fab fa-brands fa-linkedin fa-2x m-3"></i>
+      <i class="fab fa-facebook-square fa-2x m-3"></i>
+      <i class="fab fa-youtube-square fa-2x m-3"></i>
+        <p>&copy; 2022 Daniel Friesen</p>
   </footer>
 
   <!-- Javascript: Bootstrap Bundle with Popper -->

@@ -1,3 +1,38 @@
+
+.header {
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
 #jumbotron {
-    background: #ecf1f5 url("/images/mountains-bg.png") no-repeat center / contain;
+        background-image: url("../images/ProgramsForYou.jpg");
+        background-size: cover;
+        height: 100%;
+    }
+
+#jumbotron2  {
+    background-image: url("../images/Problem.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+#footer {
+    position:absolute;
+    width:100%;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 1 auto
+}
+
+.btn-width {
+    width: 150px !important;
 }
